@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "cobbleverseevcapmod",
+  "version": "1.0.0",
+  "name": "Cobbleverse EV Cap Mod",
+  "description": "Sets EV stat limit to 999 and total EV cap to 7000 for Cobblemon.",
+  "authors": ["vahinhaldar"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.vahinhaldar.cobbleverseevcapmod.CobbleverseEvCapMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.21.1",
+    "cobblemon": ">=1.4.0"
+  }
+}
